@@ -32,6 +32,12 @@ TEST_F(LinkTest, LinkFunction) {
   link.Iterate();
   link.CrusionReverse();
   link.Iterate();
+
+  int a = 10;
+  int &&ra = 10;
+  int &&rb = a;
+  int &&rc = std::forward<int>(ra);
+  int &&rd = std::move(a);
 }
 
 int main(int argc, char **argv) {

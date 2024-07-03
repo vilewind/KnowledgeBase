@@ -12,5 +12,5 @@ KnowledgeBase
 
 ## DataStructure
 
-### LinkedList
+### Link
 
