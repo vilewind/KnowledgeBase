@@ -1,4 +1,4 @@
-cmake_minimum_required (VERSION 3.23)
+cmake_minimum_required (VERSION 3.0)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
@@ -16,13 +16,13 @@ FetchContent_MakeAvailable(googletest)
 
 enable_testing()
 
-add_executable(link_test test.cc link_test.cc)
+add_executable(queue_test unbounded_queue_test.cc)
 
 target_link_libraries(
-  link_test
+  queue_test
   gtest
   gtest_main
 )
 
 include(GoogleTest)
-gtest_discover_tests(link_test)
+gtest_discover_tests(queue_test)

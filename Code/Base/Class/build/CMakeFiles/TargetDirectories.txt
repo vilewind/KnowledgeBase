@@ -1,0 +1,2 @@
+/Users/vilewind/for_live/KnowledgeBase/Code/Base/Class/build/CMakeFiles/edit_cache.dir
+/Users/vilewind/for_live/KnowledgeBase/Code/Base/Class/build/CMakeFiles/rebuild_cache.dir
