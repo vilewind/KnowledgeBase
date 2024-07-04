@@ -1,6 +1,2 @@
-Code/DataStructure/Link/build
-Code/DataStructure/Link/.cache
-Code/DataStructure/Queue/build
-Code/DataStructure/Queue/.cache
-Code/Test/build
-Code/Test/.cache
+**/build
+**/.cache
